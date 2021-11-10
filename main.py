@@ -6,7 +6,7 @@ from discord.ext import commands
 my_secret = os.environ['Token']
 
 # client = discord.Client()
-
+# test
 bot = commands.Bot(command_prefix='!')
 @bot.command(pass_context=True,
 	help="Update the role of user if you have Admin role eg: !updaterole 'xyz#0000' 'Admin'.",
